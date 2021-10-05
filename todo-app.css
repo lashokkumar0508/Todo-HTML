@@ -1,0 +1,47 @@
+body
+{
+  font-family: Open Sans, sans-serif;
+  max-width: 460px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.TodoPageMain
+{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.TodoPage-title
+{
+  font-size: 48px;
+  line-height: 1.6;
+  color: #453C52;
+}
+
+.TodoSection-title
+{
+  font-size: 34px;
+  line-height: 1.4;
+  color:#453C52;
+}
+h3
+{
+  font-size: 24px;
+  line-height: 1.4;
+  color:#453C52;
+}
+.TodoSection-todo
+{
+  font-size: 20px;
+  line-height: 1.2;
+  margin-left: 32px;
+  color:#453C52;
+}
+.Todosection
+{
+  margin-bottom: 32px;
+  margin-left: 32px;
+  padding: 32px;
+}
