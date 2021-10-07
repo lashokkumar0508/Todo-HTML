@@ -2,7 +2,7 @@ body
 {
   font-family: Open Sans, sans-serif;
   max-width: 460px;
-  margin-top: 32px;
+  margin-top: 10px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -15,9 +15,10 @@ body
 }
 .TodoPage-title
 {
-  font-size: 48px;
+  font-size: 25px;
   line-height: 1.6;
   color: #453C52;
+  font-weight: bold;
 }
 .AddTodo-Section
 {
@@ -46,29 +47,59 @@ body
 }
 .AddTodo-Button
 {
-  font-size: 14px;
+  font-size: 16px;
   color: white;
-  background-color: green;
+  background-color: rgb(35, 165, 9);
   border: 1px solid transparent;
   padding: 6px 25px;
   border-radius: 4px;
 }
-.TodoSection-title
+.TodoSectionTitle
 {
-  font-size: 34px;
-  line-height: 1.4;
+  display: flex;
   color:#453C52;
+  align-items: center;
+  margin-bottom: 8px;
 }
-.TodoSection-todo
+.TodoSectionTitle-text
 {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-right: 8px;
+
+}
+.TodoSectionTitle-ReminingCount
+{
+  font-size: 16px;
+}
+.Todoitem
+{
+  font-size: 16px;
   line-height: 1.2;
   margin-left: 32px;
   color:#453C52;
+}
+.TodoItem-Container
+{
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+}
+.TodoItem-Checkbox
+{
+  width: 16px;
+  height: 16px;
 }
 .Todosection
 {
   margin-bottom: 10px;
   margin-left: 32px;
   padding: 5px;
+}
+.TodoItem-Overduelable
+{
+  margin-left: 10px;
+  color: rgb(235, 69, 3);
+  font-size: 12px;
+  display: flex;
 }
