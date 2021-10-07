@@ -25,7 +25,7 @@ body
   display: flex;
   height: 32px;
   align-items: stretch;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .AddTodo-Text
 {
@@ -54,27 +54,37 @@ body
   padding: 6px 25px;
   border-radius: 4px;
 }
+.Todosection
+{
+  margin-bottom: 20px;
+}
 .TodoSectionTitle
 {
   display: flex;
   color:#453C52;
   align-items: center;
-  margin-bottom: 8px;
-}
+ }
+ .TodoSectionTitle
+ {
+   display: flex;
+   color: #453C52;
+   align-items:center;
+   margin-bottom: 8px;
+ }
 .TodoSectionTitle-text
 {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
+  font-weight: 800;
   margin-right: 8px;
-
-}
+ }
 .TodoSectionTitle-ReminingCount
 {
-  font-size: 16px;
+  font-size: 14px;
 }
 .Todoitem
 {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
   margin-left: 32px;
   color:#453C52;
@@ -87,7 +97,7 @@ body
 }
 .TodoItem-Checkbox
 {
-  width: 16px;
+  width: 14px;
   height: 16px;
 }
 .Todosection
