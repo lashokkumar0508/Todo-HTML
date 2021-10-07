@@ -73,7 +73,7 @@ body
  }
 .TodoSectionTitle-text
 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
   font-weight: 800;
   margin-right: 8px;
@@ -112,4 +112,22 @@ body
   color: rgb(235, 69, 3);
   font-size: 12px;
   display: flex;
+}
+.TodoItem-delete
+{
+  visibility: hidden;
+  width: 16px;
+}
+.TodoItem-Container:hover .TodoItem-delete
+{
+  visibility: visible;
+}
+.TodoItem-Container:hover
+{
+  background-color: rgb(170, 169, 169);
+}
+.TodoItem-date
+{
+  margin-left: 10px;
+  font-size: 12px;
 }
